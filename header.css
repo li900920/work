@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+	
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.div{
+		height: 105px;
+		background: #01a3ff;
+		width: 100vw;
+	}
+	p{
+		height: 30px;
+		padding: 10px 0 5px 0;
+		color: #fff;
+		width: 90vw;
+		margin-left: 5vw;
+	}
+	
+	p>span:nth-of-type(1){
+	float: left;
+	font-family: iconfont;
+	}
+	p>span:nth-of-type(2){
+	float: left;
+	font-family: iconfont;
+	}
+	p>span:nth-of-type(3){
+	float: right;
+	font-family: iconfont;
+	}
+	input{
+		height: 30px;
+		width: 90vw;
+		margin-left: 5vw;
+		outline: none;
+		border: none;
+		font-family: iconfont;
+		text-align: center;
+	}
+	ul{
+		height: 26px;
+		width: 90vw;
+		margin-left: 6vw;
+	}
+	a{
+		color: #fff;
+		float: left;
+		text-align: center;
+		text-decoration: none;
+		line-height: 30px;
+		font-size: 14px;
+		width: 12.8vw;
+	}
